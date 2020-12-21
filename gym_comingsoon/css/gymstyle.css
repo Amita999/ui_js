@@ -1,0 +1,39 @@
+body{
+    font-family: 'Permanent Marker', cursive;
+   font-family: 'Texturina', serif;
+    background: url("../images/bgGym.jpg")
+    no-repeat
+    center
+    center
+    fixed
+    ;
+    background-size: cover;
+    
+}
+
+div{
+    color: white;
+    background-color: #ff4136;
+    width:40%;
+text-align: center;
+margin:100px auto;
+border-radius: 25px;
+
+}
+
+button{
+    background-color:rgba(50,50,50);
+    ;
+    color:black;
+    padding:20px;
+    font-size: 2em;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 4em;
+}
+
+p{
+    font-size: 1.8em;
+}
