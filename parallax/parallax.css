@@ -1,0 +1,70 @@
+div{
+height: 500px;
+margin: 0;
+padding: 0;
+width:100%;
+overflow: hidden;
+}
+
+.navigation{
+    margin:0;
+    padding:0;
+    position: absolute;
+    top:0px;
+}
+
+.grey{
+    background-color:grey
+    ;
+}
+
+.parallax-window{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin:auto;
+    padding: 0;
+    margin-bottom: 0;
+    position:relative;
+    top:30%;
+}
+
+p{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    position:relative;
+    top:35%;;
+}
+
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #333;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    opacity:1;
+    width:100%;
+}
+
+
+li{
+    float:left;
+}
+
+.righty{
+    float:right;
+    }
+    
+li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 18px;
+    text-align: center;
+    color:#3ab3b3
+}
