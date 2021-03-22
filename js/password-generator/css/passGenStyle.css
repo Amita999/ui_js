@@ -1,3 +1,51 @@
 /* body{
     background-color: brown;
 } */
+body{
+    background: -moz-radial-gradient(center, ellipse cover,  #b3dced 7%, #29b8e5 42%, #29b8e5 42%, #bce0ee 93%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover,  #b3dced 7%,#29b8e5 42%,#29b8e5 42%,#bce0ee 93%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center,  #b3dced 7%,#29b8e5 42%,#29b8e5 42%,#bce0ee 93%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    height: 600px;
+}
+
+.container{
+width:600px;
+margin:0 auto;
+margin-top: 100px;
+font-size: 3em;
+}
+
+.out{
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: center;
+    color:#f63;
+}
+
+.myBtn{
+    padding: 25px 20px;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.pass{
+    width: 400px;
+    float: left;
+    font-size: 30px;
+    color: white;
+    margin-left: 0;
+    padding: 20px;
+    background-color: #f63;
+    margin-right: 10px;
+}
+
+.in{
+    margin: 0;
+    padding: 30px;
+    font-size: 15px;
+    text-align: center;
+    float: right;
+    background-color: #fff;
+    color:#f63;
+}
